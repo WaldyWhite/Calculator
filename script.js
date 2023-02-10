@@ -1,12 +1,7 @@
 let lastOperand = 0;
 let operation = null;
-let leer = null;
-let rew = ''
-
 
 const inputWindow = document.getElementById('inputWindow');
-
-let x = 0;
 
 // -- Clear --
 document.getElementById('btn_clr').addEventListener('click', function () {
