@@ -1,4 +1,4 @@
-## <p align='center'>Calkulator</p>
+## <p align='center'>Calculator</p>
 ![calk](/Screenshot%202023-02-10%2010.00.43.png)
 
 This is a simple calculator that can perform simple arithmetic.<br>
