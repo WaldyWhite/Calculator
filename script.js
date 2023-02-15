@@ -65,28 +65,28 @@ document.querySelector('#btn_equals').addEventListener('click', function () {
         inputWindow.value = sum;
     }
 
-    if(operation === 'sub'){
+    else if(operation === 'sub'){
         const sub = lastOperand - parseFloat(inputWindow.value)
         operation = null;
         lastOperand = 0;
         inputWindow.value = sub;
     }
 
-    if(operation === 'mult'){
+    else if(operation === 'mult'){
         const mult = lastOperand * parseFloat(inputWindow.value)
         operation = null;
         lastOperand = 0;
         inputWindow.value = mult;
     }
 
-    if(operation === 'div'){
+    else if(operation === 'div'){
         const div = lastOperand / parseFloat(inputWindow.value)
         operation = null;
         lastOperand = 0;
         inputWindow.value = div;
     }
 
-    if(operation === 'square'){
+    else if(operation === 'square'){
         const square = Math.sqrt(lastOperand)
         operation = null;
         lastOperand = 0;
